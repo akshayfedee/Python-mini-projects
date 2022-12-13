@@ -18,6 +18,6 @@ def generate_password(length: int) -> str:
     password = ''.join(secrets.choices(chars, k=length))
     return password
 
-# Generate a password of 8 characters
-password = generate_password(8)
+# Generate a password of 25 characters
+password = generate_password(25)
 print(password)
