@@ -1,3 +1,4 @@
+#simple implemntation of Pdf to speech in python, could be used for book to audiodook scope, need to implement recording and automating. 
 import PyPDF2
 import pyttsx3
 
