@@ -1,9 +1,7 @@
 #This code uses the Fernet class from the cryptography library to generate an encryption key, create a Fernet object, and encrypt the password and email message using the key. 
 #The encrypted password and message are then used in the code instead of the plain text versions.Note that this is just one example of how you could encrypt the code, and there are other ways to do it using different algorithms and libraries. Encrypting the code can help protect the sensitive data from being accessed by unauthorized parties, but it does not provide complete security on its own. 
-#You should also follow the other best practices mentioned earlier, such as using a strong password and enabling 2FA.
-
 #part two is a one time code
-
+#next phase could be 2FA introduced to this code
 
 from cryptography.fernet import Fernet
 from pyotp import TOTP
